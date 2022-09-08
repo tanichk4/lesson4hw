@@ -85,16 +85,43 @@ body{
     text-transform: uppercase;
 }
 
+
+.square{
+    position: relative;
+    margin: 221px auto;
+}
+
+.square_item-1{
+    top: -121px;
+}
+
+.square_item-2{
+    bottom: -60px;
+}
+
+.square_item-3{
+    right: 0;
+    top: 20px;
+}
+
+.square_item{
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background-color: #BFDEFB;
+}
+
 .caption{
     max-width: 696px;
-    margin: 221px auto 216px;
+    margin: 221px auto;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
 }
 
-.caption::before{
+
+/* .caption::before{
     content: '';
     position: absolute;
     width: 178px;
@@ -112,11 +139,16 @@ body{
     background: #BFDEFB;
     top: 0px;
     right: 0px;
-}
+} */
 
-.title{
-    position: relative;
-}
+
+
+
+
+
+
+
+
 
 .caption1{
     max-width: 696px;
